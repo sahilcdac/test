@@ -1,0 +1,7 @@
+select max(SAL) from EMP1
+where SAL < (select max(SAL) from EMP1
+where SAL < (select max(SAL) from EMP1
+where SAL < (select max(SAL) from EMP1
+where SAL < (select max(SAL) from EMP1
+))));
+
